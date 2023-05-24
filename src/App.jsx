@@ -3,7 +3,7 @@ import Navbar from './components/navbar/Navbar'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 // import Form from './components/form/Form'
 import ChooseBodyType from './pages/ChooseBodyType'
-import AdminSection from './pages/AdminSection.Jsx'
+import AdminSection from './pages/AdminSection'
 // import Canvas from './pages/Canvas'
 import Canvas from './pages/NewCanvas/NewCanvas'
 
