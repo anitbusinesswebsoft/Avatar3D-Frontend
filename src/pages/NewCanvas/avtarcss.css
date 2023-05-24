@@ -1,0 +1,79 @@
+
+.html {
+	background-image: url(../../assets/img/bg-img.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+.bg1616 {
+	background-color: #161616;
+	color: #fff;
+	padding: 8px;
+	border-radius: 10px;
+}
+
+.polygon {
+	color: #FFD569
+}
+
+.avtartab {
+	border-radius: 0.25rem;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+	background-color: rgba(0, 0, 0, 0.25);
+	font-weight: bold;
+
+}
+
+.h100 {
+	height: 100vh !important;
+}
+
+.btn1 {
+	background: #92c7eb;
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+	border: none;
+	padding: 20px;
+	width: 90%;
+	border-radius: 20px;
+	height: 70px;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.btn1:hover {
+	width: 72px;
+	height: 72px;
+}
+
+.tabbg {
+	background-image: url(../../assets/img/tabbg.png);
+	height: 100vh;
+	background-size: 100%;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+	background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.tab-content {
+	height: 100vh;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+.selectnft {
+	border: solid 2px #ff9900 !important;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}

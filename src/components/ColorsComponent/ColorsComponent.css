@@ -1,0 +1,14 @@
+.rang {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 40rem;
+    border: none;
+  }
+  
+  .btn_style {
+    width: 100%;
+    top: 10rem;
+    /* left: 1px; */
+    height: 25rem;
+    /* background-color: white; */
+  }

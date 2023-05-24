@@ -1,0 +1,59 @@
+.flex {
+    display: flex;
+    position: relative;
+    background-color: #E2FCFA;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  .rounded-full {
+    /* border-radius: 9999px; */
+    border-radius: 25rem;
+  
+  }
+  
+  .xl\:h-12 {
+    height: 2rem;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .lg\:gap-4 {
+    grid-gap: 1rem;
+    gap: 1rem;
+  }
+  
+  .btn_img {
+    border: none;
+    background: none;
+  
+  }
+  
+  .btn_img_div {
+    width: 4rem;
+    height: 4rem;
+    ;
+  
+  }
+  
+  .img_sidebar {
+    height: 60vh;
+    background-color: white;
+    color: bisque;
+    display: fixed;
+    padding: 0 2rem;
+  
+  }
+  
+  .main_sidebar {
+    background-color: white;
+    height: 100vh;
+  }
