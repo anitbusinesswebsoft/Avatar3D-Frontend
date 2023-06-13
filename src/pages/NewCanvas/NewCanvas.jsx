@@ -120,14 +120,16 @@ const NewCanvas = () => {
                             <Character characterName={selectedCharacter.gblGuid} loadingValue={false} />
                             {selectedCharacter.characterType === 'Female' &&
                                 <>
-                                    <DynamicShirt shirtName={shirt[2]} scale={[1.1, 1.01, 1.3]} position={[.024, -.85, .04]} />
-                                    <DynamicShirt shirtName={shirt[3]} scale={[1.01, 1.01, 1.08]} position={[.024, -.88, .026]} />
+                                    <DynamicShirt shirtName={shirt[2]} scale={[1.1, 1.012, 1.3]} position={[.024, -.85, .04]} />
+                                    <DynamicShirt shirtName={shirt[3]} scale={[1.01, 1.03, 1.09]} position={[.024, -.88, .026]} />
                                 </>
                             }
                             {selectedCharacter.characterType === 'Male' &&
                                 <>
-                                    <DynamicShirt shirtName={shirt[2]} scale={[1.01, 1.01, 1.08]} position={[0.025, -0.9, 0.03]} />
-                                    <DynamicShirt shirtName={shirt[3]} scale={[1.1, 1, 1.2]} position={[0.025, -0.87, 0.03]} />
+                                    <DynamicShirt shirtName={shirt[2]} position={[0.025, -0.9, 0]}/>
+                                    <DynamicShirt shirtName={shirt[3]} position={[0.025, -0.9, 0]}/>
+                                    {/* <DynamicShirt shirtName={shirt[2]} scale={[1.02, 1.04, 1.1]} position={[0.025, -0.945, 0.03]} /> */}
+                                    {/* <DynamicShirt shirtName={shirt[3]} scale={[1.1, 1, 1.2]} position={[0.025, -0.87, 0.03]} /> */}
                                 </>
                             }
                             <DynamicShirt shirtName={shirt[4]} scale={[1, 1, 1.2]} position={[.024, -.89, .025]} />
